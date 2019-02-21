@@ -1,0 +1,1 @@
+addSbtPlugin("com.knoldus" % "codesquad-sbt-plugin" % "0.1" changing())
