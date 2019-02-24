@@ -9,21 +9,21 @@
 		extra-sbtVersion="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190221112258"/>
+		date="20190224161131"/>
 	<dependencies>
-		<module organisation="com.knoldus" name="codesquad-sbt-plugin">
-			<revision name="0.1" status="release" pubdate="20190221112241" resolver="local" artresolver="local" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="true" default="false" conf="compile, default(compile)" position="1">
-				<metadata-artifact status="no" details="" size="2074" time="0" location="/home/knoldus/.ivy2/cache/scala_2.12/sbt_1.0/com.knoldus/codesquad-sbt-plugin/ivy-0.1.xml" searched="true" original-local-location="/home/knoldus/.ivy2/local/com.knoldus/codesquad-sbt-plugin/scala_2.12/sbt_1.0/0.1/ivys/ivy.xml" origin-is-local="true" origin-location="/home/knoldus/.ivy2/local/com.knoldus/codesquad-sbt-plugin/scala_2.12/sbt_1.0/0.1/ivys/ivy.xml"/>
+		<module organisation="com.knoldus" name="codesquad">
+			<revision name="0.1" status="release" pubdate="20190224160940" resolver="local" artresolver="local" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="true" default="false" conf="compile, default(compile)" position="1">
+				<metadata-artifact status="no" details="" size="2008" time="0" location="/home/knoldus/.ivy2/cache/scala_2.12/sbt_1.0/com.knoldus/codesquad/ivy-0.1.xml" searched="true" original-local-location="/home/knoldus/.ivy2/local/com.knoldus/codesquad/scala_2.12/sbt_1.0/0.1/ivys/ivy.xml" origin-is-local="true" origin-location="/home/knoldus/.ivy2/local/com.knoldus/codesquad/scala_2.12/sbt_1.0/0.1/ivys/ivy.xml"/>
 				<caller organisation="default" name="sbt-plugin-test-build" conf="compile" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="codesquad-sbt-plugin" type="jar" ext="jar" status="no" details="" size="5118" time="0" location="/home/knoldus/.ivy2/local/com.knoldus/codesquad-sbt-plugin/scala_2.12/sbt_1.0/0.1/jars/codesquad-sbt-plugin.jar">
-						<origin-location is-local="true" location="/home/knoldus/.ivy2/local/com.knoldus/codesquad-sbt-plugin/scala_2.12/sbt_1.0/0.1/jars/codesquad-sbt-plugin.jar"/>
+					<artifact name="codesquad" type="jar" ext="jar" status="no" details="" size="5130" time="0" location="/home/knoldus/.ivy2/local/com.knoldus/codesquad/scala_2.12/sbt_1.0/0.1/jars/codesquad.jar">
+						<origin-location is-local="true" location="/home/knoldus/.ivy2/local/com.knoldus/codesquad/scala_2.12/sbt_1.0/0.1/jars/codesquad.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20190221112256" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.0" status="integration" pubdate="20190224161123" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="sbt-plugin-test-build" conf="compile" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
