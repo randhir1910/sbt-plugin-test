@@ -1,14 +1,15 @@
-import com.knoldus.CodeSquad._
 
-lazy val root = (project in file("."))
-  .enablePlugins(SbtPlugin)
-  .settings(
-    name := "sbt-plugin-test",
-    version := "0.1",
-    scalaVersion := "2.12.8",
-    scriptedBufferLog := false,
-    organisationName := "knoldus",
-    projectName := "codesquad",
-    moduleName1 := "akka",
-    myPluginSettings,
-  )
+lazy val root = (project in file(".")).aggregate(core, util)
+
+lazy val core = (project in file("core")).settings(
+  moduleName := "core",
+  name := "sbt-plugin-test",
+  organizationName := "knoldus",
+  libraryDependencies += "com.typesafe" % "config" % "1.3.3"
+)
+
+lazy val util = (project in file("util")).settings(
+  moduleName := "util",
+  name := "sbt-plugin-test",
+  organizationName := "knoldus",
+)
